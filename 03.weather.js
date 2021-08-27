@@ -16,11 +16,11 @@ app.get('/weather', (req, res) => {
     }, {
       name: 'Seoul',
       main: { temp: 36.5 },
-      weather: [{ icon: '01d', main: '맑음', description: '매우 맑음' }]
+      weather: [{ icon: '02d', main: '맑음', description: '매우 맑음' }]
     }, {
       name: 'Seoul',
       main: { temp: -12 },
-      weather: [{ icon: '01d', main: '추움', description: '매우 추움' }]
+      weather: [{ icon: '10d', main: '추움', description: '매우 추움' }]
     }]
     res.status(200).json(weather [ Math.floor(Math.random() *3)])
   }
